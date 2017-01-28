@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: 000000;
+	background-image: url("../images/logo_ruhr_centered.png");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: rgb(255,0,0);
+	font-size: 10pt;
+	font-family: 'Allerta Stencil', sans-serif;
+	text-shadow: 3px 3px #000000;
+
+}
+
+
+ul{
+	display: inline-block;
+	text-align: center;
+	/*position: fixed;*/
+	width: 100vw;
+	padding-top:  30pt;
+	padding-bottom: 30pt;
+	/*background-color: rgb(0,255,0);*/
+	background-image: url("../images/bannergrijs.png");
+	background-size: 100vw;
+	background-position: center;
+
+	
+}
+
+li{
+	display: inline-block;
+	padding:10pt;
+	margin: 5pt;
+	font-size: 30pt;
+	background-color: rgba(62,62,62,0.4);
+	border-radius: 15pt;
+
+
+}
+li a{
+	color: rgb(255,0,0);
+	text-decoration: none;
+	font-weight: bolder;
+	font-family: edoFont;
+}
+h1{
+	color: rgb(255,0,0);
+	font-size: 60pt;
+	text-align: center;
+	padding: 20pt;
+	font-family: 'Rock Salt', cursive;
+}
+p{
+	font-size: 30pt;
+	color: rgb(255,255,255);
+	padding-top: 10pt;
+	padding-bottom: 30pt;
+	padding-left: 35pt;
+	padding-right: 35pt;
+}
+
+h2{
+	color: rgb(255,0,0);
+	font-size: 30pt;
+	padding-left: 35pt;
+	font-family: 'Rock Salt', cursive;
+}
+
+
+video{
+	width: 90vw;
+	margin-left: 5vw;
+	margin-bottom: 50pt;
+}
+
+.meedoen{
+
+	padding: 30pt;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50pt;
+	margin-bottom: 50pt;
+	width: 200pt;
+	text-decoration: none;
+	background-color: rgba(60,60,60,0.5);
+	color: rgb(255,0,0);
+	font-size: 30pt;
+	text-align: center;
+	border-radius: 30pt;
+}
+.logo{
+	width: 100vw;
+	height: 100vh;
+}
+.video{
+	width: 100vw;
+	background-image: url("../images/wiel.png");
+	background-size: 200vw;
+}
+.tekst{
+	height: 70vh;
+	width: 100vw;
+	background-image: url("../images/sparkles.png");
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+
+
+}
+
+.nav{
+	height: 10vh;
+	/*background-image: url("../images/bannergrijs.png");*/
+
+		
+}
+.vulling{
+	/*width: 100vw;
+	height: 125pt;*/
+	overflow: scroll;
+	height: 90vh;
+}
+.verloop{
+	background-image: url("../images/kaartgrijs.png");
+	background-size: 122vh;
+	background-repeat: no-repeat;
+	background-color: rgb(62,62,62);
+	color: #FFFFFF;
+
+}
+.zaterdag{
+	background-image: url(../images/buis.png);
+	background-size: 60vh;
+	background-repeat: no-repeat;
+
+}
+
+.zondag{
+	background-image: url(../images/spoor.png);
+	background-size: 120vh;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.formulier{
+	font-size: 30pt;
+	background-color: rgb(50,50,50);
+	height: 100vh;
+	color: rgb(255,0,0);
+
+}
+.formulier p{
+	font-size: 30pt;
+	padding: 30pt, 50pt;
+
+
+}
+
+.verzend{
+	background-image: url(../images/buis.png);
+	background-size: 100vw;
+	height: 30pt;
+	color: rgb(255,0,0);
+	font-size: 100pt;
+
+}
+
+
+
+input{
+	height: 30pt;
+	width: 300pt;
+	font-size: 30pt;
+	margin: 10pt;
+	font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+input:nth-last-child(1){
+	height: 300pt;
+	width: 700pt;
+	font-size: 30pt;
+	margin-left: 15pt;
+	margin-top: 20pt;
+}
+
+textarea{
+	margin: 20pt;
+	margin-left: 40pt;
+	font-size: 30pt;
+	max-height: 400pt;
+}
+
