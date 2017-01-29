@@ -126,7 +126,7 @@ video{
 }
 .verloop{
 	background-image: url("../images/kaartgrijs.png");
-	background-size: 122vh;
+	background-size: 200vw;
 	background-repeat: no-repeat;
 	background-color: rgb(62,62,62);
 	color: #FFFFFF;
@@ -134,7 +134,7 @@ video{
 }
 .zaterdag{
 	background-image: url(../images/buis.png);
-	background-size: 60vh;
+	background-size: 100vw;
 	background-repeat: no-repeat;
 
 }
@@ -148,7 +148,7 @@ video{
 .formulier{
 	font-size: 30pt;
 	background-color: rgb(50,50,50);
-	height: 100vh;
+	width: 100vw;
 	color: rgb(255,0,0);
 
 }
@@ -162,7 +162,7 @@ video{
 .verzend{
 	background-image: url(../images/buis.png);
 	background-size: 100vw;
-	height: 30pt;
+	width: 20vw;
 	color: rgb(255,0,0);
 	font-size: 100pt;
 
