@@ -150,23 +150,15 @@ video{
 	background-color: rgb(50,50,50);
 	width: 100vw;
 	color: rgb(255,0,0);
+	height: 100vh;
 
 }
 .formulier p{
 	font-size: 30pt;
 	padding: 30pt, 50pt;
-
-
 }
 
-.verzend{
-	background-image: url(../images/buis.png);
-	background-size: 100vw;
-	width: 20vw;
-	color: rgb(255,0,0);
-	font-size: 100pt;
 
-}
 
 
 
@@ -180,11 +172,14 @@ input{
 }
 
 input:nth-last-child(1){
-	height: 300pt;
-	width: 700pt;
+	width: 50vw;
+	height: 10vh;
+	background-image: url(../images/buis.png);
+	background-size: 50vw;
+	color: rgb(255,0,0);
 	font-size: 30pt;
-	margin-left: 15pt;
 	margin-top: 20pt;
+	margin-left: 25vw;
 }
 
 textarea{
